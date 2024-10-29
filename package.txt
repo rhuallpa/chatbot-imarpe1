@@ -1,6 +1,11 @@
+zlib
+zlib-devel
+zlib-dev
 zlib1g-dev
 libjpeg-dev
 libfreetype6-dev
 liblcms2-dev
 libtiff-dev
 libwebp-dev
+libjpeg-turbo-dev
+jpeg
