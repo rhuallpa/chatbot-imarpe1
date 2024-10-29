@@ -1,7 +1,7 @@
-pip
-pillow
+pip==24.3.1
+pillow==9.5.0  # Versión compatible con Streamlit
 openai==0.28.0
-streamlit
+streamlit==1.27.0
 python-dotenv==1.0.1
 pandas==2.2.3
 requests==2.25.1
