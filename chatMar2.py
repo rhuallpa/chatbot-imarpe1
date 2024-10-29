@@ -35,12 +35,31 @@ except Exception as e:
 # Configurar la página de Streamlit
 st.set_page_config(page_title="IMARPE Chatbot y Excel Analyzer")
 
+
+# Ajustar el espacio superior de la imagen directamente
+st.sidebar.markdown(
+    """
+    <style>
+    .element-container {
+       
+        margin-top: -18px; /* Ajusta este valor para mover la imagen más hacia arriba */
+    }
+   
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Mostrar la imagen con el ajuste del tamaño
 st.sidebar.image(
     "images/logo777.jpeg",  # Ajusta la ruta si es necesario
     use_column_width=False, 
-    width=200,  # Ajusta el tamaño de la imagen según lo que desees
+    width=210,  # Ajusta el tamaño de la imagen según lo que desees
+     # Agrega esta clase para aplicar el estilo de margen inferior
 )
+
+
+
 
 # Crear una barra de navegación en la barra lateral
 seccion = st.sidebar.selectbox("Navegar a:", ["Chat IMARPE", "Consultas sobre Excel"])
