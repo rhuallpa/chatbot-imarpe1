@@ -8,3 +8,4 @@ langchain-experimental==0.3.2
 supabase==2.7.3
 openpyxl
 tabulate
+pillow
